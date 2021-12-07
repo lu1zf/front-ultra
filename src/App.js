@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Home />} />
